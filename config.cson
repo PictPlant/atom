@@ -1,0 +1,24 @@
+"*":
+  "exception-reporting":
+    userId: "db2c66dc-96d4-e364-3676-e9439bc50cd2"
+  welcome:
+    showOnStartup: false
+  core:
+    disabledPackages: [
+      "japanese-wrap"
+    ]
+  editor:
+    invisibles: {}
+    softWrap: true
+    showIndentGuide: true
+    showInvisibles: true
+  minimap:
+    plugins:
+      "git-diff": true
+      pigments: true
+  "linter-scss-lint": {}
+  "linter-sass-lint": {}
+  "git-diff":
+    showIconsInEditorGutter: true
+  "linter-haml":
+    copyRubocopYml: false

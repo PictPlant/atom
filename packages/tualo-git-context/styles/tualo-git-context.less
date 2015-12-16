@@ -1,0 +1,26 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+
+
+.tualo-git-context > .default-message {
+  color:   saturate(spin( @text-color-success, 10), 10%);
+}
+
+.tualo-git-context-new {
+  color: @text-color-success
+}
+.tualo-git-context-changed {
+  color: @text-color-info
+}
+
+.tualo-git-context-nothing {
+  color: @text-color
+}
+
+.tualo-git-context-staged {
+  color: saturate(spin( @text-color-warning, -10), 10%);
+}
